@@ -3,4 +3,4 @@
 ## Password Generator
 ![PasswordGeneratorGIF](PasswordGeneratorGIF.gif)
 
-https://replit.com/@gabriel-germano/rock-paper-scissors-start
+https://replit.com/@gabriel-germano/password-generator-start
