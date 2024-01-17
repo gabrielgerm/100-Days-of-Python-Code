@@ -1,6 +1,6 @@
-# Day 8 - Caesar Cipher
+# Day 9 - Dictionaries, Nesting and the Secret Auction
 
-## Caesar Cipher
-![CaesarCipherGIF](CaesarCipherGIF.gif)
+## Blind Auction
+![BlindAuctionGIF](BlindAuctionGIF.gif)
 
-https://replit.com/@gabriel-germano/caesar-cipher-4-start#main.py
+https://replit.com/@gabriel-germano/blind-auction-start#main.py
