@@ -1,3 +1,4 @@
+# The clear() function will only work in the replit site
 from auction_art import logo
 from replit import clear
 
