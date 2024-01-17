@@ -1,4 +1,4 @@
-# Day 8 - Function Parameters & Caesar Cipher
+# Day 8 - Caesar Cipher
 
 ## Caesar Cipher
 ![CaesarCipherGIF](CaesarCipherGIF.gif)
