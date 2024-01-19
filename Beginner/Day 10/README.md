@@ -3,4 +3,4 @@
 ## Calculator
 ![CalculatorGIF](CalculatorGIF.gif)
 
-https://replit.com/@gabriel-germano/blind-auction-start#main.py
+https://replit.com/@gabriel-germano/calculator-start
