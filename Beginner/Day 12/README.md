@@ -1,6 +1,6 @@
-# Day 11 - The Blackjack Capstone Project
+# Day 12 - Scope & Number Guessing Game
 
-## The Blackjack Capstone
-![BlackjackGIF](BlackjackGIF.gif)
+## The Number Guessing Game
+![GuessingGame](GuessingGameGIF.gif)
 
-https://replit.com/@gabriel-germano/blackjack-start#main.py
+https://replit.com/@gabriel-germano/guess-the-number-start#main.py
