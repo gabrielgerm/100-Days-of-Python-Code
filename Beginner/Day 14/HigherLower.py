@@ -9,12 +9,12 @@ def create_celebrity_B():
         celebrity_B = random.choice(data)
     return celebrity_B
 
-def end_game(current_score):
+def end_game(final_score):
     clear()
     print(game_art.logo)
-    print(f"Sorry, that's wrong. Final score: {current_score}")
-    current_score = -1
-    return current_score
+    print(f"Sorry, that's wrong. Final score: {final_score}")
+    final_score = -1
+    return final_score
 
 
 celebrity_A = random.choice(data)
