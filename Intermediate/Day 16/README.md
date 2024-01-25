@@ -1,5 +1,5 @@
-# Day 15 - Local Development Environment Setup & the Coffe Machine Project
+# Day 16 - Object Oriented Programming (OOP)
 
-## Coffe Machine
+## OPP Coffe Machine
 ![CoffeMachineGIF](CoffeMachineGIF.gif)
 
