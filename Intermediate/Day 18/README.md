@@ -1,5 +1,5 @@
-# Day 17 - The Quiz Project & the Benefits of OOP
+# Day 18 - Turtle & the Graphical User Interface
 
-## Quiz Project
-![QuizProjectGIF](QuizProjectGIF.gif)
+## The Hirst Painting Project
+![PaintingProjectGIF](PaintingProjectGIF.gif)
 
