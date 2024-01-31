@@ -1,4 +1,5 @@
 from turtle import Turtle
+
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 UP = 90
@@ -11,7 +12,7 @@ class Snake:
         self.snake_parts = []
         self.create_snake_part()
         self.snake_head = self.snake_parts[0]
-        
+
     def create_snake_part(self):
         for position in STARTING_POSITIONS:
             self.add_segment(position)
@@ -22,7 +23,7 @@ class Snake:
         snake_part.fillcolor("white")
         snake_part.penup()
         snake_part.goto(position)
-        self.snake_parts.append(snake_part)    
+        self.snake_parts.append(snake_part)
 
     def extend(self):
         self.add_segment(self.snake_parts[-1].position())
@@ -37,14 +38,15 @@ class Snake:
     def up(self):
         if self.snake_head.heading() != DOWN:
             self.snake_head.setheading(90)
-    
+
     def down(self):
         if self.snake_head.heading() != UP:
             self.snake_head.setheading(270)
 
     def left(self):
         if self.snake_head.heading() != RIGHT:
-            self.snake_parts[0].setheading(180)       
+            self.snake_parts[0].setheading(180)
+
     def right(self):
         if self.snake_head.heading() != LEFT:
             self.snake_parts[0].setheading(0)
