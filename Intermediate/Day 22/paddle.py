@@ -1,5 +1,4 @@
 from turtle import Turtle
-from turtle import Screen
 
 UP = 90
 DOWN = 270
@@ -10,7 +9,7 @@ class Paddle(Turtle):
         self.penup()
         self.speed("fastest")
         self.shape("square")
-        self.shapesize(stretch_wid=2, stretch_len=10)
+        self.shapesize(stretch_wid=1, stretch_len=5)
         self.fillcolor("white")        
         self.goto(position)
         self.setheading(UP)
