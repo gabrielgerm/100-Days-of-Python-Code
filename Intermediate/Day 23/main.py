@@ -28,7 +28,7 @@ while game_is_on:
         car_list.append(Car(scoreboard.current_level))
 
     for car in car_list:
-        if car.distance(player) < 40:            
+        if car.distance(player) < 35:            
             game_is_on = False
         else:
             car.move()

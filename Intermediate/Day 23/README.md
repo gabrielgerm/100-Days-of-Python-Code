@@ -1,5 +1,5 @@
-# Day 22 - Build Pong: The Famous Arcade Game
+# Day 23 - The Turtle Crossing Capstone
 
-## Pong the Game
-![PongGIF](PongGIF.gif)
+## Turtle Crossing
+![TurtleCrossing](TurtleCrossingGIF.gif)
 
