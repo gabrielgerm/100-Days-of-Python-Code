@@ -1,4 +1,4 @@
-# Day 25 - Working with CSV Data and the Pandas Library
+# Day 26- List comprehension and NATO Alphabet
 
-## US States Game 
-![USGame](USGameGIF.gif)
+## NATO Alphabet Project
+![Nato](NatoGIF.gif)
