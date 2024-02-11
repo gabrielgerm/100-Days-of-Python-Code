@@ -21,16 +21,19 @@
 # {new_key:new_value for (index, row) in df.iterrows()}
 
 #TODO 1. Create a dictionary in this format:
-{"A": "Alfa", "B": "Bravo"}
+# {"A": "Alfa", "B": "Bravo"}
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-
 import pandas
 
-with open("nato_phonetic_alphabet.csv") as alphabet_file:
-    alphabet = alphabet_file.read().split()
-    alphabet_list = [letter_code.split(',')for letter_code in alphabet]
-    alphabet_dictionary = {letter_code[0]:letter_code[1] for letter_code in alphabet_list}
+data = pandas.read_csv("nato_phonetic_alphabet.csv")
+alphabet_dictionary = {row.letter:row.code for (index, row) in data.iterrows()}
+
+# with open("nato_phonetic_alphabet.csv") as alphabet_file:
+#     alphabet = alphabet_file.read().split()    
+#     alphabet_list = [letter_code.split(',' ) for letter_code in alphabet]
+#     print(alphabet_list)
+#     alphabet_dictionary = {letter_code[0]:letter_code[1] for letter_code in alphabet_list}
 
 nato_is_on = True
 while nato_is_on:
