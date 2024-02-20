@@ -1,4 +1,4 @@
-# Day 31 - Flash Card App Capstone Project
+# Day 32 - Send Email(smtplib & Manage Dates(datetime)
 
-## Flash Card App
-![Flash](FlashGIF.gif)
+## Automated Birthday Wisher
+![Birth](BirthGIF.gif)
