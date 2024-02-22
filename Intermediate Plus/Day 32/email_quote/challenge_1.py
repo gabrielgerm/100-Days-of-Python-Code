@@ -21,4 +21,3 @@ if week_day == 1:
             to_addrs="zbindeoliveira@yahoo.com",
             msg=f"Subject:A Quote to make your day better!!\n\n{random_quote}"
         )
-

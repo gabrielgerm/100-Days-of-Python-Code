@@ -1,4 +1,3 @@
-# Day 32 - Send Email(smtplib & Manage Dates(datetime)
+# Day 33 - API Endpoints & API Parameters - ISS Overhead Notifier
 
-## Automated Birthday Wisher
-![Birth](BirthGIF.gif)
+## ISS Overhead Notifier
